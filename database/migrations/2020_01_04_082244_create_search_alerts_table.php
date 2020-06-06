@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
 
 class CreateSearchAlertsTable extends Migration
 {
@@ -22,6 +22,7 @@ class CreateSearchAlertsTable extends Migration
             $table->string('channel')->default('email_and_notifications'); // email, notifications, email_and_notifications
             $table->timestamp('last_alert')->useCurrent();
             $table->timestamps();
+            $table->softDeletes();
 
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
