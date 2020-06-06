@@ -7,8 +7,8 @@
         "email": "chadidi97@gmail.com",
         "homepage": "https://www.chadidi.dev"
     }],
-    "homepage": "https://github.com/fevrok/search-alert",
-    "keywords": ["Laravel", "search-alert"],
+    "homepage": "https://github.com/fevrok/laravel-search-alert",
+    "keywords": ["Laravel", "package", "search-alert"],
     "require": {
         "illuminate/support": "~5|~6"
     },

@@ -15,7 +15,7 @@ class SearchAlertServiceProvider extends ServiceProvider
     {
         // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'fevrok');
         // $this->loadViewsFrom(__DIR__.'/../resources/views', 'fevrok');
-        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+        $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
         // $this->loadRoutesFrom(__DIR__.'/routes.php');
 
         // Publishing is only necessary when using the CLI.
@@ -31,7 +31,7 @@ class SearchAlertServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/searchalert.php', 'searchalert');
+        $this->mergeConfigFrom(__DIR__ . '/../config/searchalert.php', 'searchalert');
 
         // Register the service the package provides.
         // $this->app->singleton('searchalert', function ($app) {
@@ -48,7 +48,7 @@ class SearchAlertServiceProvider extends ServiceProvider
     {
         return ['SearchAlert'];
     }
-    
+
     /**
      * Console-specific booting.
      *
@@ -58,7 +58,7 @@ class SearchAlertServiceProvider extends ServiceProvider
     {
         // Publishing the configuration file.
         $this->publishes([
-            __DIR__.'/../config/searchalert.php' => config_path('searchalert.php'),
+            __DIR__ . '/../config/searchalert.php' => config_path('searchalert.php'),
         ], 'searchalert.config');
 
         // Publishing the views.

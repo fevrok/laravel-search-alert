@@ -12,7 +12,7 @@ This is where your description should go. Take a look at [contributing.md](contr
 Via Composer
 
 ``` bash
-$ composer require fevrok/search-alert
+$ composer require fevrok/laravel-search-alert
 ```
 
 ## Usage
@@ -44,14 +44,14 @@ If you discover any security related issues, please email chadidi97@gmail.com in
 
 MIT License. Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/fevrok/search-alert.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/fevrok/search-alert.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/fevrok/search-alert/master.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/fevrok/laravel-search-alert.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/fevrok/laravel-search-alert.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/fevrok/laravel-search-alert/master.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/12345678/shield
 
-[link-packagist]: https://packagist.org/packages/fevrok/search-alert
-[link-downloads]: https://packagist.org/packages/fevrok/search-alert
-[link-travis]: https://travis-ci.org/fevrok/search-alert
+[link-packagist]: https://packagist.org/packages/fevrok/laravel-search-alert
+[link-downloads]: https://packagist.org/packages/fevrok/laravel-search-alert
+[link-travis]: https://travis-ci.org/fevrok/laravel-search-alert
 [link-styleci]: https://styleci.io/repos/12345678
 [link-author]: https://github.com/fevrok
 [link-contributors]: ../../contributors
